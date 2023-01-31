@@ -1,0 +1,138 @@
+
+:root {
+    --brand: linear-gradient(rgba(45, 236, 39, 0.6), rgba(0, 0, 0, 0.6));
+}
+
+* {
+margin: 0;
+padding: 0;
+}
+
+/*BACKGROUND*/
+
+body {
+    background-image: url(../img/Cabecera\ Landing\ sin\ portada.jpg);
+    height: 100vh;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    background-attachment: fixed;
+    
+}
+
+/*LOGO*/
+
+.logo {
+    height: 90px;
+    width: 183px;
+    align-items: center;
+    margin: 20px;
+}
+
+/*CONTENT*/ 
+
+.content {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+    padding-bottom: 50px;
+}
+
+/*TITLE*/
+
+h1 {
+    text-align: center;
+    margin-bottom: 5px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 20px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+/*COVER*/
+
+.cover {
+    width: 90%;
+    height: 90%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*BUTTONS*/
+
+.btn {
+    text-align: center;
+    margin: 20px;
+}
+
+.myButton {
+	box-shadow: 3px 4px 0px 0px #899599;
+	background: var(--brand);
+	border-radius:15px;
+	border:1px solid rgb(82, 255, 47);
+	display:inline-block;
+	cursor:pointer;
+	color: white;
+	font-family:Arial;
+	font-size:17px;
+	padding:7px 25px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #e1e2ed;
+    width: 90%;
+    margin: 10px 0 10px 15px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #09ee11 5%, #ededed 100%);
+	color: black;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+/*CONTACT*/
+
+.icon {
+    color: white;
+    font-size: 4rem;
+    margin: 20px 8px 20px 8px;
+}
+
+.icon:hover {
+    color: #09ee11
+}
+
+p {
+    color: white;
+    font-size: 1.5rem;
+    margin: 20px;
+}
+/*FOOTER*/
+
+footer {
+    background-color: black;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-size: 15px;
+    margin-top: 10px;
+}
